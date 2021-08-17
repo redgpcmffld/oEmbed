@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 10vw auto;
+    background-color:bisque;
+}
+
+header {
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.search-bar input {
+    width: 80vw;
+    height: 3vw;
+}
+
+.search-bar button {
+    position: absolute;
+    top: 10%;
+    right: 11%;
+    background-color: gold;
+    height: 70%;
+    font-size: 1vw;
+}
+
+main {
+    margin: 5% 5% auto;
+    background-color:rgb(248, 244, 239);
+    border: solid 1px black;
+}
+main table {
+    text-align: left;
+    margin: 5% 5% auto;
+    width: 80vw;
+    height: auto;
+}
+
+tr:nth-child(odd) {
+    background-color:azure;
+}
+
+tr {
+    display: flex;
+    padding: 2% 2% auto;
+}
+
+td {
+    padding: 1%;
+    word-break:break-all;
+}
+
+td:first-child {
+    width: 15%;
+}
+
+td:last-child {
+    width: 70%;
+}
